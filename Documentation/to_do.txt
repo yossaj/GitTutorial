@@ -1,0 +1,47 @@
+1.fix registration date problem X done
+2. add delete and update buttons X done
+3.write function which for bookings which shows who has booked which class. X done
+4. implement the function on site. X done
+5. use bookings save method to add functionality which allows members to be booked into classes. X done
+6. add edit functionality to members and classes X done
+7. fix registration problem (AGAIN). X done
+8. implement function showing which members have registered for which classes. x Done
+9. fix classes null problem X done
+10.write a method to show up coming classes x Done
+11. improve spacing with css x Done
+12. layout ideas for additional functionality x Done
+13. Add maximum capacity to classes. x done
+14. change add member method to include capacity X done
+15. fix any problems it causes X done
+16. added edit booking functionality X done
+17. implement it on website x done
+18.work on css x done - added pictures and divs
+19. refactor get names for bookings x done (decided it was submit to be able to edit a booking, removed it)
+20. add date column x
+21. add pictures url x
+22. add levels to classes x
+23. fix resultant bugs x
+24. add images to show of each members x
+24. write function which checks membership_type vs tier x done
+24.2 fix verify so it accepts 'nil'  X
+24.3 fix cap_save so that it can save members to new classes  X
+24.4 added input boxes to edit X
+25. fix bugs  X
+26. add date col to table X
+27. fix resultant bugs X
+28. add sort by date X
+30. select images X
+<<<<<<< HEAD
+29. add to css x
+34. fix member update x
+32. add function which shows all classes a member will be attending x
+34. add edit class to bookings function x
+
+31. add photo to members shows
+33. add more links
+35. fix add member to empty class problem
+=======
+
+
+29. add to css
+>>>>>>> parent of b5b54fb... changes to css

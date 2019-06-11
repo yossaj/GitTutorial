@@ -1,0 +1,179 @@
+*{
+  margin:0px;
+  padding: 0px;
+
+}
+
+body{
+  background-color: #586683;
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'header header header header header header'
+  'menu main main main main main'
+  'menu main main main main main';
+  grid-gap: 0px;
+  background-color: #F3A712;
+  color: #171A2C;
+  font-family: serif;
+  padding: 0px;
+}
+
+.item1{
+  text-align:center;
+  margin: 0px;
+ }
+
+.item2{
+  background-color: #586683;
+  margin: 0px;
+  font-family: futura;
+}
+
+.item3{
+  text-align:  center;
+  color: #33658A;
+  font-family: futura;
+}
+
+
+header{
+  background-color: #29335C;
+  color: #F3A712;
+  padding: 20px;
+}
+
+header h1{
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: normal;
+  font-size: 4em;
+}
+
+
+input[type=button], input[type=submit] {
+  background-color: #336AAD;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 1em;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+h1{
+  margin: 0px;
+}
+
+h2{
+
+}
+
+nav{
+  background-color: #586683;
+  font-size: 1.5em;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav a{
+  text-decoration: none;
+  color: #F4F5F4;
+  font-size: 1em;
+  padding: 10px;
+}
+
+nav a:hover{
+  background-color: #336AAD;
+  padding: ;
+}
+
+li{
+    margin: 10px;
+}
+
+.insert{
+  margin: 30px;
+  padding: 10px;
+  background-color: #D6E2E7;
+}
+
+.member_holder img{
+  height: 150px;
+
+}
+
+.member_holder{
+  display: inline-block;
+  margin: 5px;
+}
+
+.member_all{
+
+}
+
+.members_list{
+  margin: 10px 20px;
+}
+
+
+p{
+  font-size: 1.2em;
+  margin: 0px;
+  padding: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: #171A2C;
+  width: inherit;
+}
+
+a:hover{
+  background-color:;
+}
+
+.hidie{
+  /* display: none; */
+}
+
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background: #586683;
+  color: white;
+}
+
+
+.welcome{
+  margin: 10px;
+}
